@@ -12,7 +12,7 @@ Run 'vagrant up apache' for an apache server.
 
 Run 'vagrant halt apache' to halt the apache server.
 
-Note: it is not recommended to run both boxes at once, as they both rely on the same http rewrite rules.
+Warning: it is not recommended to run both boxes at once, as they both rely on the same http rewrite rules.
  
 
 Varying Vagrant Vagrants is an open source [Vagrant](http://vagrantup.com) configuration focused on [WordPress](http://wordpress.org) development. VVV is [MIT Licensed](https://github.com/varying-vagrant-vagrants/vvv/blob/master/LICENSE).
