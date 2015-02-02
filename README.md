@@ -1,4 +1,19 @@
-# Varying Vagrant Vagrants
+# Varying Vagrant Vagrants - MultiMachine Edition
+
+This is a MultiMachine fork of 10up's Varying Vagrant Vagrants configuration for Nginx, integrated with ericmann's VVV-Apache fork.
+
+To test or run the same sites inside either an Nginx or an Apache virtual server:
+
+Run 'vagrant up nginx' for an nginx server.
+
+Run 'vagrant halt nginx' to halt the nginx server.
+
+Run 'vagrant up apache' for an apache server.
+
+Run 'vagrant halt apache' to halt the apache server.
+
+Note: it is not recommended to run both boxes at once, as they both rely on the same http rewrite rules.
+ 
 
 Varying Vagrant Vagrants is an open source [Vagrant](http://vagrantup.com) configuration focused on [WordPress](http://wordpress.org) development. VVV is [MIT Licensed](https://github.com/varying-vagrant-vagrants/vvv/blob/master/LICENSE).
 
@@ -158,6 +173,7 @@ A bunch of stuff!
 1. [WordPress Trunk](http://core.svn.wordpress.org/trunk/)
 1. [WP-CLI](http://wp-cli.org/)
 1. [nginx](http://nginx.org/) 1.6.x
+1. [Apache](http://httpd.apache.org/) 2.4.x
 1. [mysql](http://www.mysql.com/) 5.5.x
 1. [php-fpm](http://php-fpm.org/) 5.5.x
 1. [memcached](http://memcached.org/) 1.4.13
